@@ -1,5 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>son9hao blog</title><link>https://son9hao.github.io</link><description>技术分享</description><copyright>son9hao blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/63029251?v=4</url><title>avatar</title><link>https://son9hao.github.io</link></image><lastBuildDate>Wed, 28 May 2025 09:01:55 +0000</lastBuildDate><managingEditor>son9hao blog</managingEditor><ttl>60</ttl><webMaster>son9hao blog</webMaster><item><title>C# 制作NuGet程序包，并发布到NuGet官网</title><link>https://son9hao.github.io/post/C%23%20-zhi-zuo-NuGet-cheng-xu-bao-%EF%BC%8C-bing-fa-bu-dao-NuGet-guan-wang.html</link><description># 一、准备工作：在NuGet上创建并获取API Keys
+# 一、准备工作：在NuGet上创建并获取API Keys
 网址：https://www.nuget.org/
 ## 1、首先需要登录，直接用微软账户登录即可
 
@@ -56,4 +55,36 @@ https://www.microsoft.com/zh-cn/p/nuget-package-explorer/9wzdncrdmdm3?activetab=
 
 ![Image](https://github.com/user-attachments/assets/b4f4938e-40e9-409f-aaa3-1907c84a0323)
 
-添加项目依赖，即依赖哪些框架。</description><guid isPermaLink="true">https://son9hao.github.io/post/C%23%20-zhi-zuo-NuGet-cheng-xu-bao-%EF%BC%8C-bing-fa-bu-dao-NuGet-guan-wang.html</guid><pubDate>Wed, 28 May 2025 08:50:02 +0000</pubDate></item><item><title>测试博客</title><link>https://son9hao.github.io/post/ce-shi-bo-ke.html</link><description>测试博客123。</description><guid isPermaLink="true">https://son9hao.github.io/post/ce-shi-bo-ke.html</guid><pubDate>Sun, 11 May 2025 17:04:24 +0000</pubDate></item></channel></rss>
+添加项目依赖，即依赖哪些框架。比如.NETFramework，.NET Core等
+
+![Image](https://github.com/user-attachments/assets/305b8fb9-d513-4d69-a684-5faf9af8d0f4)
+
+![Image](https://github.com/user-attachments/assets/6d6d9cd9-73e6-438a-a209-d68dd228a237)
+
+最后，点击确认
+
+![Image](https://github.com/user-attachments/assets/3d8f969a-cd57-4d4c-aeb7-9f7e9edba939)
+
+编辑完成，看下效果
+
+![Image](https://github.com/user-attachments/assets/e892341c-16cb-4f89-8068-6f15fa91d600)
+
+看一下Metadata Source对应的内容，其实和刚刚编辑的信息是一致的。
+
+![Image](https://github.com/user-attachments/assets/55ff933f-fea4-4332-b27b-a0e69595185d)
+
+
+### 1.5、保存nupkg文件
+
+![Image](https://github.com/user-attachments/assets/a6fea6d9-5e5e-464c-a41c-da7a8704ae88)
+
+![Image](https://github.com/user-attachments/assets/40e48a77-6e08-4bc6-aff5-f76e520fb630)
+
+
+### 1.6、发布到NuGet
+
+![Image](https://github.com/user-attachments/assets/9fd90acc-a18a-466a-885c-3c0aa0fb76ca)
+
+![Image](https://github.com/user-attachments/assets/d5600d57-e303-4735-807a-5749fcac860f)
+
+![Image](https://github.com/user-attachments/assets/1d8f9123-3746-4056-838b-afaf287a6718)
